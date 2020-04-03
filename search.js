@@ -29,7 +29,7 @@ search.onkeyup = event => {
       console.log(searchItem);
       console.log(meals[searchItem]);
       console.log(meals[searchItem].url);
-      document.location = meals[searchItem].url;
+      document.location = meals[searchItem];
     } catch (err) {
       alert("Oooops, the meal you are looking for doesn't exist!");
     }
