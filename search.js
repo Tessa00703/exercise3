@@ -2,7 +2,7 @@ const search = document.getElementById("search");
 
 const meals = {
   pizzamargherita: "./pizzamargherita.html",
-  pizzasalami: ".pizzamargherita.html",
+  pizzasalami: "./pizzamargherita.html",
   pizzatonno: "./pizzatonno.html",
   pizzahawaii: "./pizzahawaii.html",
   pizzanewyork: "./pizzanewyork.html",
