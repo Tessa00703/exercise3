@@ -17,7 +17,8 @@ const meals = {
   bananapuddingpie: "./bananapuddingpie.html",
   carrotcake: "./carrotcake.html",
   applepie: "./applepie.html",
-  lemonbuttercake: "./lemonbuttercake.html"
+  lemonbuttercake: "./lemonbuttercake.html",
+  endivesalad: "./endivesalad.html"
 };
 
 console.log(search);

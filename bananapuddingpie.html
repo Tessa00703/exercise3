@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Our Litte Cook Book</title>
+  </head>
+  <body>
+    <main>
+      <div class="sidebar">
+        <div class="fixed-flex">
+          <div class="logo">
+            <a href="./index.html">
+              <img src="./src/img/the_cookbook.png" alt="" />
+            </a>
+          </div>
+
+          <div class="form-group" id="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="search"
+              placeholder="Search for Recipes"
+            />
+          </div>
+
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    PIZZA
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      <a href="./pizzamargherita.html">Pizza Margherita</a>
+                    </li>
+                    <li><a href="./pizzasalami.html">Pizza Salami</a></li>
+                    <li><a href="./pizzatonno.html">Pizza Tonno</a></li>
+                    <li><a href="./pizzahawaii.html">Pizza Hawaii</a></li>
+                    <li><a href="./pizzanewyork.html">Pizza New York</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    PASTA
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      <a href="./spaghettinapoli.html">Spaghetti Napoli</a>
+                    </li>
+                    <li>
+                      <a href="./lasagnabolognese.html">Lasagna Bolognese</a>
+                    </li>
+                    <li>
+                      <a href="./tagliatellesm.html"
+                        >Tagliatelle Spinach & Mushrooms</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./sweetleekcarbonara.html">Sweet Leek Carbonara</a>
+                    </li>
+                    <li>
+                      <a href="./dannydevitospasta.html"
+                        >Danny Devito's Pasta</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    SALADS
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <ul>
+                    <li><a href="./horiatikisalad.html">Horiatiki Salad</a></li>
+                    <li><a href="./endivesalad.html">Endive Salad</a></li>
+                    <li><a href="./waldorfsalad.html">Waldorf Salad</a></li>
+                    <li><a href="./chickensalad.html">Chicken Salad</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  DESSERTS
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseFour"
+              class="collapse"
+              aria-labelledby="headingFour"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <ul>
+                  <li><a href="./bananapuddingpie.html">Banana Pudding Pie</a></li>
+                  <li><a href="./carrotcake.html">Carrot Cake</a></li>
+                  <li><a href="./applepie.html">Apple Pie</a></li>
+                  <li><a href="./lemonbuttercake.html">Lemon Butter Cake</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="recipe">
+        <h2>Banana Pudding Pie</h2>
+        <img src="./src/img/meals/bananapuddingpie.png" alt="Banana Pudding Pie" />
+        <h3>Ingredients</h3>
+        <div class="ingredients">
+            <div class="grid-element">grapes</div>
+            <div class="grid-element">150 g</div>
+            <div class="grid-element">lemon</div>
+            <div class="grid-element">1 pc</div>
+            <div class="grid-element">olive oil</div>
+            <div class="grid-element">a bit</div>
+            <div class="grid-element">shelled walnuts</div>
+            <div class="grid-element">60 g</div>
+            <div class="grid-element">english mustard</div>
+            <div class="grid-element">1 tsp</div>
+            <div class="grid-element">natural yoghurt</div>
+            <div class="grid-element">250 ml</div>
+            <div class="grid-element">tarragon</div>
+            <div class="grid-element">6 sprigs</div>
+            <div class="grid-element">celery</div>
+            <div class="grid-element">2 sticks</div>
+            <div class="grid-element">apples</div>
+            <div class="grid-element">2 pcs</div>
+            <div class="grid-element">romaine lettuce</div>
+            <div class="grid-element">1 pc</div>
+    
+        </div>
+        <div class="steps">
+            <h3>Steps</h3>
+            <p>
+                Preheat the oven to 180°C/350°F/gas 4. Place the grapes on a baking tray, finely grate over the zest from ½ the lemon, drizzle with a little oil and season with sea salt and black pepper.
+            </p>
+            <p>
+                Place in the hot oven for 15 minutes, then add the walnuts and roast for a further 5 to 10 minutes, or until the grapes are soft and caramelised and the walnuts are golden.
+            </p>
+            <p>
+                Meanwhile, make the dressing. Place the mustard and yoghurt into a bowl and whisk well. Pick, finely chop and add the tarragon leaves, squeeze in the lemon juice and mix well, then season to taste.
+            </p>
+            <p>
+                Trim and chop the celery into 1cm chunks, slice the apple into large matchsticks, then place into a large bowl. Discard the tatty outer lettuce leaves, then roughly chop and add to the bowl. Pick the grapes off their stalks and add to the bowl. Drizzle over the yoghurt dressing and toss well. Place onto a platter, roughly chop and sprinkle over the walnuts, then serve.
+            </p>
+        </div>
+    </section>
+      <a id="backtotop" href="#top">BACK TO TOP</a>
+    </main>
+    <footer>
+      <a href="#">About Us</a>
+      <a href="#">Lorem Ipsum</a>
+      <a href="#">Another Point</a>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="search.js"></script>
+  </body>
+</html>
