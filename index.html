@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Our Litte Cook Book</title>
+  </head>
+  <body>
+    <main>
+      <div class="sidebar">
+        <div class="fixed-flex">
+          <div class="logo">
+            <img src="./src/img/the_cookbook.png" alt="" />
+          </div>
+
+          <div class="form-group" id="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="search"
+              placeholder="Search for Recipes"
+            />
+          </div>
+
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    PIZZA
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      <a href="./pizzamargherita.html">Pizza Margherita</a>
+                    </li>
+                    <li><a href="./pizzasalami.html">Pizza Salami</a></li>
+                    <li><a href="./pizzatonno.html">Pizza Tonno</a></li>
+                    <li><a href="./pizzahawaii.html">Pizza Hawaii</a></li>
+                    <li><a href="./pizzanewyork.html">Pizza New York</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    PASTA
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      <a href="./spaghettinapoli.html">Spaghetti Napoli</a>
+                    </li>
+                    <li>
+                      <a href="./lasagnabolognese.html">Lasagna Bolognese</a>
+                    </li>
+                    <li>
+                      <a href="./tagliatellesm.html"
+                        >Tagliatelle Spinach & Mushrooms</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./sweetleekcarbonara.html"
+                        >Sweet Leek Carbonara</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./dannydevitospasta.html"
+                        >Danny Devito's Pasta</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    SALADS
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <ul>
+                    <li><a href="./horiatikisalad.html">Horiatiki Salad</a></li>
+                    <li><a href="./endivesalad.html">Endive Salad</a></li>
+                    <li><a href="./waldorfsalad.html">Waldorf Salad</a></li>
+                    <li><a href="./chickensalad.html">Chicken Salad</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    DESSERTS
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      <a href="./bananapuddingpie.html">Banana Pudding Pie</a>
+                    </li>
+                    <li><a href="./carrotcake.html">Carrot Cake</a></li>
+                    <li><a href="./applepie.html">Apple Pie</a></li>
+                    <li>
+                      <a href="./lemonbuttercake.html">Lemon Butter Cake</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="inspiration">
+        <h2>Latest Recipes</h2>
+        <div class="home-content">
+          <div>
+            <a href="./pizzatonno.html"
+              ><img class="home-pic" src="./src/img/meals/pizzatonno.png" alt=""
+            /></a>
+          </div>
+          <div>
+            <h3>Pizza Tonno</h3>
+            <p>
+              The pizza tuna is present in all the menus of pizzerias in the
+              world. Tuna is a food that keeps well in the classic packaging
+              canned in oil and therefore is used frequently as an ingredient in
+              a pizzeria for pizza either alone or combined with other
+              ingredients, to surprise and satisfy the needs of all customers.
+            </p>
+          </div>
+        </div>
+
+        <div class="home-content">
+          <div>
+            <a href="./dannydevitospasta.html"
+              ><img
+                class="home-pic"
+                src="./src/img/meals/dannydevitospasta.png"
+                alt=""
+            /></a>
+          </div>
+          <div>
+            <h3>Danny Devito's Pasta</h3>
+            <p>
+              Place the flour in a large bowl, make a well in the centre and
+              gradually stir in 200ml of tepid water with a fork until combined.
+              Switch to your hands and knead for 10 minutes, or until pliable
+              and smooth, but not sticky (adding a little extra flour if
+              needed). Cover and rest for 30 minutes.
+            </p>
+          </div>
+        </div>
+
+        <div class="home-content">
+          <div>
+            <a href="./waldorfsalad.html"
+              ><img
+                class="home-pic"
+                src="./src/img/meals/waldorfsalad.png"
+                alt=""
+            /></a>
+          </div>
+          <div>
+            <h3>Waldorf Salad</h3>
+            <p>
+              Are you a fan of pasta salad? If so then buckle your seat belt and
+              hold on because this recipe takes pasta salad to the ultimate
+              level. I’m talking snack level. Possibly even main dish level.
+              Picnic, grilling, outdoor or even indoor by the fire awesome
+              level. So what makes this pasta salad over the top? All the
+              ingredients. We’re not talking noodles, peppers and olives. We’re
+              talking noodles, pasta, peppers, pepperoni, provolone cheese,
+              pimiento olives, black olives, tomatoes.
+            </p>
+          </div>
+        </div>
+
+        <div class="home-content">
+          <div>
+            <a href="./spaghettinapoli.html"
+              ><img
+                class="home-pic"
+                src="./src/img/meals/spaghettinapoli.png"
+                alt=""
+            /></a>
+          </div>
+          <div>
+            <h3>Spaghetti Napoli</h3>
+            <p>
+              The most important step in making a good Napoli sauce is in
+              selecting the right tomatoes. I am sure home grown tomatoes are a
+              great for a Napoli sauce, but I have tried and get the best
+              results by using canned Italian tomato. A wise Italian explained
+              to me to only use canned tomatoes that contain only tomatoes and
+              tomato juice. The theory goes that additional citric acid is only
+              ever added because the tomatoes where not fully ripe when they
+              where canned in order to preserve them. Whether or not this is
+              true by following this tip I have ended up with the best tasting
+              Napoli sauce.
+            </p>
+          </div>
+        </div>
+      </section>
+      <a id="backtotop" href="#top">BACK TO TOP</a>
+    </main>
+    <footer>
+      <a href="#">About Us</a>
+      <a href="#">Lorem Ipsum</a>
+      <a href="#">Another Point</a>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="search.js"></script>
+  </body>
+</html>

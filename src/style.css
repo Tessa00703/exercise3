@@ -1,0 +1,206 @@
+body {
+  font-family: "Abel", sans-serif;
+  --thegreen: rgb(116, 199, 138);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("./img/1718.jpg");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 5% 5%;
+  margin: 0;
+}
+
+li {
+  padding: 2% 1%;
+  font-size: 1.2rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+h5 {
+  padding: 5%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  border-top: 1px grey solid;
+}
+
+footer a {
+  padding: 2% 5%;
+  text-decoration: none;
+  font-family: "Amatic SC", cursive;
+  color: black;
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 750px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("./img/istockphoto-515673754-1024x1024.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    background-attachment: fixed;
+  }
+
+  .fixed-flex {
+    position: fixed;
+  }
+
+  #recipe {
+    padding-top: 2%;
+  }
+
+  #inspiration {
+    padding-top: 2%;
+  }
+
+  #form-group {
+    padding: 0;
+  }
+
+  #backtotop {
+    display: none;
+  }
+
+  #inspiration {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+.sidebar {
+  min-width: 300px;
+  padding: 0 2%;
+}
+
+.accordion {
+  padding-bottom: 10%;
+}
+
+.logo {
+  text-align: center;
+  padding: 10% 0 10% 0;
+}
+
+.card-header {
+  background-color: white;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.btn {
+  color: rgb(2, 2, 2);
+  padding: 2% 1%;
+  font-family: "Abel", sans-serif;
+  font-size: 1.2rem;
+}
+
+.ingredients {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-element {
+  padding: 2.5%;
+  border-bottom: 1px grey solid;
+  min-width: 150px;
+  text-align: justify;
+}
+
+.steps {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5%;
+  border-top: rgba(128, 128, 128, 0.3) 1px solid;
+}
+
+.home-pic {
+  width: 60%;
+}
+.form-group {
+  padding: 0 15%;
+}
+
+#recipe {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  font-family: "Abel", sans-serif;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#recipe h2 {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  font-size: 5rem;
+}
+
+#recipe img {
+  max-width: 85%;
+  padding-bottom: 5%;
+}
+
+#recipe p {
+  padding: 2% 5% 0 5%;
+  max-width: 700px;
+}
+
+#backtotop {
+  background-color: rgba(128, 128, 128, 0.589);
+  padding: 1.5%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+#inspiration {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5% 1fr 1fr;
+  gap: 0.5%;
+  max-width: 700px;
+  text-align: center;
+  padding-bottom: 15%;
+}
+
+#inspiration h2 {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  font-size: 5rem;
+}

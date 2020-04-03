@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Our Litte Cook Book</title>
+  </head>
+  <body>
+    <main>
+      <div class="sidebar">
+        <div class="fixed-flex">
+          <div class="logo">
+            <a href="./index.html">
+              <img src="./src/img/the_cookbook.png" alt="" />
+            </a>
+          </div>
+
+          <div class="form-group" id="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="search"
+              placeholder="Search for Recipes"
+            />
+          </div>
+
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    PIZZA
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      <a href="./pizzamargherita.html">Pizza Margherita</a>
+                    </li>
+                    <li><a href="./pizzasalami.html">Pizza Salami</a></li>
+                    <li><a href="./pizzatonno.html">Pizza Tonno</a></li>
+                    <li><a href="./pizzahawaii.html">Pizza Hawaii</a></li>
+                    <li><a href="./pizzanewyork.html">Pizza New York</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    PASTA
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      <a href="./spaghettinapoli.html">Spaghetti Napoli</a>
+                    </li>
+                    <li>
+                      <a href="./lasagnabolognese.html">Lasagna Bolognese</a>
+                    </li>
+                    <li>
+                      <a href="tagliatellesm.html"
+                        >Tagliatelle Spinach & Mushrooms</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./sweetleekcarbonara">Sweet Leek Carbonara</a>
+                    </li>
+                    <li>
+                      <a href="./dannydevitospasta.html"
+                        >Danny Devito's Pasta</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    SALADS
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <ul>
+                    <li><a href="./horiatikisalad.html">Horiatiki Salad</a></li>
+                    <li><a href="./endivesalad.html">Endive Salad</a></li>
+                    <li><a href="./waldorfsalad.html">Waldorf Salad</a></li>
+                    <li><a href="./chickensalad.html">Chicken Salad</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  DESSERTS
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseFour"
+              class="collapse"
+              aria-labelledby="headingFour"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <ul>
+                  <li><a href="./bananapuddingpie.html">Banana Pudding Pie</a></li>
+                  <li><a href="./carrotcake.html">Carrot Cake</a></li>
+                  <li><a href="./applepie.html">Apple Pie</a></li>
+                  <li><a href="./lemonbuttercake.html">Lemon Butter Cake</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="recipe">
+        <h2>Pizza Tonno</h2>
+        <hr />
+        <img src="./src/img/meals/pizzatonno.png" alt="" />
+        <h3>Ingredients</h3>
+        <div class="ingredients">
+          <div class="grid-element">wheat flour</div>
+          <div class="grid-element">250g</div>
+          <div class="grid-element">water</div>
+          <div class="grid-element">3/4 cup</div>
+          <div class="grid-element">olive oil</div>
+          <div class="grid-element">1/2 tsp</div>
+          <div class="grid-element">salt</div>
+          <div class="grid-element">1/2 tsp</div>
+          <div class="grid-element">sugar</div>
+          <div class="grid-element">1 pinch</div>
+          <div class="grid-element">fresh yeast</div>
+          <div class="grid-element">5g</div>
+        </div>
+        <div class="steps">
+          <h3>Steps</h3>
+          <p>
+            Dissolve the yeast in the water, add most of the flour and the rest
+            of the ingredients. Knead the dough slowly and let it rest for an
+            hour or so.
+          </p>
+          <p>
+            heat the olive oil and fry the chopped garlic a little bit on medium
+            heat. Watch out though you do not want the garlic to turn brown. add
+            the passata and sugar and salt and let everything simmer for 30-40
+            minutes (or whatever time you have left of the time the dough is
+            resting.)
+          </p>
+          <p>
+            So dough rested and sauce cooked, we are ready to assemble the
+            pizza. You are supposed to only use your hands to form the dough,
+            but hey nobody will notice if you use a rolling pin.
+          </p>
+          <p>
+            Spread the sauce on the rolled out dough and then add the tuna, the
+            onion sliced into rings and capers. Spread the also sliced
+            mozzarella over everything and sprinkle with oregano.. Place in your
+            pre-heated oven (as hot as it goes). Keep an eye on it and take it
+            out when the cheese starts getting golden. Should take about 15
+            minutes.
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo maxime
+            quam autem eveniet pariatur quisquam doloribus eos laborum itaque.
+            Et dicta rerum commodi fugiat tempora? Eveniet animi nobis
+            consectetur autem. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Doloremque esse eum voluptas minus repellendus
+            voluptatem illum excepturi dicta aliquid, maxime odio nobis facilis!
+            Ex corrupti minus omnis veniam in quis.
+          </p>
+        </div>
+      </section>
+      <a id="backtotop" href="#top">BACK TO TOP</a>
+    </main>
+    <footer>
+      <a href="#">About Us</a>
+      <a href="#">Lorem Ipsum</a>
+      <a href="#">Another Point</a>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="search.js"></script>
+  </body>
+</html>
